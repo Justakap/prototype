@@ -1,0 +1,116 @@
+    body {
+        color: grey;
+        font-family: 'Kanit', sans-serif;
+
+        background: url(img/18.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+
+    .left {
+        /* border: 2px solid blue; */
+        display: inline;
+        position: absolute;
+        top: 13px;
+        left: 13px;
+        height: 100px;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: inline;
+        position: absolute;
+        top: 20px;
+        left: 364px;    
+        margin: auto;
+        padding: 5px 5px;
+
+    }
+
+    .right {
+        /* border: 2px solid white; */
+        display: inline;
+        position: absolute;
+        top: 16px;
+        right: 9px;
+
+
+    }
+
+    .navbar {
+        list-style: none;
+        display: inline;
+    }
+
+    .navbar li {
+        display: inline;
+        margin: 8px 8px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+    color: grey;
+    }
+
+    .left img{
+        /* width: 80px;
+        height: 50px; */
+        filter: invert(100%);
+        width: 80px;
+        height: 50px;
+        text-align: center;
+
+    }
+    .btn {
+        border-radius: 10px;
+        margin: 8px 8px;
+        padding: 3px 14px;
+        color: white;
+        font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+    border: 2px solid grey;
+    width: 100px;
+    }
+    .btn:hover{
+        color: black;
+        background-color: rgb(92, 92, 92);
+    }
+    .container{
+        border: 2px solid grey;
+        border-radius: 10px;
+        position: absolute;
+        top: 128px;
+        left: 50px ;
+        margin: 4px 4px;
+        padding: 3px 3px;
+        width: 400px;
+    text-align: center;}
+
+    .container input{
+        margin: 10px 10px;
+        padding: 5px 5px;
+        width: 80%;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Kanit', sans-serif;
+    }
+    #submit{
+        margin: 13px 35px;
+        padding: 5px 5px;
+        width: 302px;
+        position: relative;
+        left: 2px;
+    }
+    #btn2{
+        position: sticky;
+
+    }
